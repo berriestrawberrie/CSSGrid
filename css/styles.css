@@ -1,0 +1,64 @@
+
+:root{
+    --e1 : #007F5F;
+    --e2:  #2B9348;
+    --e3:  #55A630;
+    --e4:  #80B918;
+    --e5:  #AACC00;
+    --e6:  #BFD200;
+    --e7:  #D4D700;
+    --e8: #DDDF00;
+}
+
+.grid__container{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr  1fr ;
+    grid-gap: 24px;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+
+.grid__element{
+    position: relative;
+    overflow: hidden;
+}
+
+.e1 {
+
+   background-color: var(--e1);
+}
+
+.e2{
+ 
+    background-color: var(--e2);
+}
+
+.e3{
+
+    background-color: var(--e3);
+}
+
+.e4{
+
+    background-color: var(--e4);
+}
+.e5{
+
+    background-color: var(--e5);
+}
+.e6{
+
+    background-color: var(--e6);
+}
+.e7{
+
+    background-color: var(--e7);
+}
+
+
